@@ -4,7 +4,7 @@ public class Main {
                 FoodOrder order = FoodOrderFactory.createOrder("pizza", true, true);
 
                 System.out.println("Order: " + order.getFood().getDescription());
-                System.out.println("Total cost: $" + order.getFood().cost());
+                System.out.println("Total cost: " + order.getFood().cost() + " taka ");
 
                 order.getPreparation().prepareFood();
 

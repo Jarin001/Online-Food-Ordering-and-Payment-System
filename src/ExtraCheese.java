@@ -9,6 +9,6 @@ class ExtraCheese extends FoodDecorator {
     }
 
     public double cost() {
-        return food.cost() + 1.5;
+        return food.cost() + 70;
     }
 }

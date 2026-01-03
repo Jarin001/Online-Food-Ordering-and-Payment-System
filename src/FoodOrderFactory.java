@@ -10,12 +10,12 @@ class FoodOrderFactory {
 
         switch (foodType.toLowerCase()) {
             case "pizza":
-                food = new BasicFood("Pizza", 8);
+                food = new BasicFood("Pizza", 500);
                 preparation = new PizzaPreparation();
                 break;
 
             case "burger":
-                food = new BasicFood("Burger", 5);
+                food = new BasicFood("Burger", 250);
                 preparation = new BurgerPreparation();
                 break;
 
